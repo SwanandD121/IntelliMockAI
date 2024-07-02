@@ -1,11 +1,11 @@
 import { Button } from "../components/ui/button";
 import Image from "next/image";
+import Landing from './Landing'
 
 export default function Home() {
   return (
     <div>
-      Heloba
-      <Button>Heloba</Button>
+      <Landing />
     </div>
   );
 }
